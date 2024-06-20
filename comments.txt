@@ -21,3 +21,4 @@ git restore --staged . --> se os arquivos estiverem no estado de Staged (Após f
 
 
 git commit --amend -m "new message" --> alterar a mensagem do último commit
+git reset --soft HEAD~1 --> Reverte o último commit
