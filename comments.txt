@@ -9,3 +9,15 @@ GIT LOG --> utilizado para ver os commits e a linha do tempo do projeto
 git log --> padrão
 git log --oneline --> outro estilo 
 git log -n 3 --> apenas as 3 últimas linhas do log ele irá mostrar
+
+HEAD --> o head aponta qual foi o último commit feito (pode ser visto no git log)
+
+git diff --> consegue ver as alterações feitas no projeto 
+
+
+git restore filename --> Descarta as alterações feitas naquele arquivo
+git restore . --> Descarta todas as alterações
+git restore --staged . --> se os arquivos estiverem no estado de Staged (Após fazer o add), eles voltam para o estado de diretório de trabalho
+
+
+git commit --amend -m "new message" --> alterar a mensagem do último commit
