@@ -1,0 +1,11 @@
+GIT COMMANDS
+
+git add . --> Preparação (Stage) - Adiciona as alterações de arquivos em uma "Caixa", para que possam ser commitadas
+git commit -m "new file" --> Adiciona ao histórico - Um ponto na linha do tempo do projeto em que foi criado um novo arquivo
+
+
+GIT LOG --> utilizado para ver os commits e a linha do tempo do projeto
+
+git log --> padrão
+git log --oneline --> outro estilo 
+git log -n 3 --> apenas as 3 últimas linhas do log ele irá mostrar
